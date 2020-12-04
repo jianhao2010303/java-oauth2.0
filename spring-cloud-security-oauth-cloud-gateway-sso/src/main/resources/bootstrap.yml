@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: zuul-gateway-sso
+
+apollo:
+  meta: http://192.168.206.11:9000,http://192.168.206.66:9000,http://192.168.206.127:9000
+  bootstrap:
+    enabled: true
+

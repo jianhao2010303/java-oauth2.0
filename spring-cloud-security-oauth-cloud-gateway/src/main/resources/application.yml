@@ -1,0 +1,30 @@
+# zuul
+zuul:
+  add-host-header: true
+  ignoredServices: '*'
+  retryable: true
+  sensitiveHeaders: '*'
+
+  routes:
+    uaa-service:
+      path: /uaa/**
+      stripPrefix: false
+
+    system-service:
+      path: /system/**
+      stripPrefix: false
+
+
+# eureka
+eureka:
+  security:
+    user:
+      name: admin
+      password: admin123456
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    serviceUrl:
+      defaultZone: http://${eureka.security.user.name}:${eureka.security.user.password}@192.168.206.11:8000/eureka,http://${eureka.security.user.name}:${eureka.security.user.password}@192.168.206.66:8000/eureka,http://${eureka.security.user.name}:${eureka.security.user.password}@192.168.206.127:8000/eureka
+
+

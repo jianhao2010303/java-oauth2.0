@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../spring-cloud-security-oauth-cloud-gateway/spring-cloud-security-oauth-cloud-gateway.iml" filepath="$PROJECT_DIR$/../spring-cloud-security-oauth-cloud-gateway/spring-cloud-security-oauth-cloud-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spring-cloud-security-oauth-cloud-resource/spring-cloud-security-oauth-cloud-resource.iml" filepath="$PROJECT_DIR$/../spring-cloud-security-oauth-cloud-resource/spring-cloud-security-oauth-cloud-resource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spring-cloud-security-oauth-cloud-uaa/spring-cloud-security-oauth-cloud-uaa.iml" filepath="$PROJECT_DIR$/../spring-cloud-security-oauth-cloud-uaa/spring-cloud-security-oauth-cloud-uaa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spring-cloud-security-oauth-common/spring-cloud-security-oauth-common.iml" filepath="$PROJECT_DIR$/../spring-cloud-security-oauth-common/spring-cloud-security-oauth-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spring-cloud-security-oauth-github/spring-cloud-security-oauth-github.iml" filepath="$PROJECT_DIR$/../spring-cloud-security-oauth-github/spring-cloud-security-oauth-github.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spring-cloud-security-oauth-manager/spring-cloud-security-oauth-manager.iml" filepath="$PROJECT_DIR$/../spring-cloud-security-oauth-manager/spring-cloud-security-oauth-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spring-cloud-security-oauth-manager/spring-cloud-security-oauth-manager-dao/spring-cloud-security-oauth-manager-dao.iml" filepath="$PROJECT_DIR$/../spring-cloud-security-oauth-manager/spring-cloud-security-oauth-manager-dao/spring-cloud-security-oauth-manager-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spring-cloud-security-oauth-manager/spring-cloud-security-oauth-manager-service/spring-cloud-security-oauth-manager-service.iml" filepath="$PROJECT_DIR$/../spring-cloud-security-oauth-manager/spring-cloud-security-oauth-manager-service/spring-cloud-security-oauth-manager-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/spring-cloud-security-oauth-parent.iml" filepath="$PROJECT_DIR$/.idea/spring-cloud-security-oauth-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spring-cloud-security-oauth-resource/spring-cloud-security-oauth-resource.iml" filepath="$PROJECT_DIR$/../spring-cloud-security-oauth-resource/spring-cloud-security-oauth-resource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spring-cloud-security-oauth-resource-jwt/spring-cloud-security-oauth-resource-jwt.iml" filepath="$PROJECT_DIR$/../spring-cloud-security-oauth-resource-jwt/spring-cloud-security-oauth-resource-jwt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spring-cloud-security-oauth-uaa/spring-cloud-security-oauth-uaa.iml" filepath="$PROJECT_DIR$/../spring-cloud-security-oauth-uaa/spring-cloud-security-oauth-uaa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spring-cloud-security-oauth-uaa-jwt/spring-cloud-security-oauth-uaa-jwt.iml" filepath="$PROJECT_DIR$/../spring-cloud-security-oauth-uaa-jwt/spring-cloud-security-oauth-uaa-jwt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spring-cloud-security-oauth-uaa-jwt-sso/spring-cloud-security-oauth-uaa-jwt-sso.iml" filepath="$PROJECT_DIR$/../spring-cloud-security-oauth-uaa-jwt-sso/spring-cloud-security-oauth-uaa-jwt-sso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spring-cloud-security-oauth-zuul-jwt-sso/spring-cloud-security-oauth-zuul-jwt-sso.iml" filepath="$PROJECT_DIR$/../spring-cloud-security-oauth-zuul-jwt-sso/spring-cloud-security-oauth-zuul-jwt-sso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spring-cloud-security-ouath-client1-jwt-sso/spring-cloud-security-ouath-client1-jwt-sso.iml" filepath="$PROJECT_DIR$/../spring-cloud-security-ouath-client1-jwt-sso/spring-cloud-security-ouath-client1-jwt-sso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spring-cloud-security-ouath-client2-jwt-sso/spring-cloud-security-ouath-client2-jwt-sso.iml" filepath="$PROJECT_DIR$/../spring-cloud-security-ouath-client2-jwt-sso/spring-cloud-security-ouath-client2-jwt-sso.iml" />
+    </modules>
+  </component>
+</project>

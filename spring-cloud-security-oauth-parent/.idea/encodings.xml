@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/../spring-cloud-security-oauth-cloud-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-cloud-security-oauth-cloud-gateway-sso" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-cloud-security-oauth-cloud-resource" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-cloud-security-oauth-cloud-uaa" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-cloud-security-oauth-cloud-uaa-sso" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-cloud-security-oauth-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-cloud-security-oauth-github" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-cloud-security-oauth-login-jwt-sso" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-cloud-security-oauth-manager" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-cloud-security-oauth-manager/spring-cloud-security-oauth-manager-dao" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-cloud-security-oauth-manager/spring-cloud-security-oauth-manager-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-cloud-security-oauth-resource" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-cloud-security-oauth-resource-jwt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-cloud-security-oauth-uaa" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-cloud-security-oauth-uaa-jwt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-cloud-security-oauth-uaa-jwt-sso" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-cloud-security-oauth-zuul-jwt-sso" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-cloud-security-ouath-client1-jwt-sso" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-cloud-security-ouath-client2-jwt-sso" charset="UTF-8" />
+  </component>
+</project>

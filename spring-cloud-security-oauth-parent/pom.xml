@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>cn.com.xuct</groupId>
+    <artifactId>spring-cloud-security-oauth-parent</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0</version>
+    <modules>
+        <module>../spring-cloud-security-oauth-common</module>
+        <module>../spring-cloud-security-oauth-resource</module>
+        <module>../spring-cloud-security-oauth-uaa</module>
+        <module>../spring-cloud-security-oauth-manager</module>
+        <module>../spring-cloud-security-oauth-uaa-jwt</module>
+        <module>../spring-cloud-security-oauth-resource-jwt</module>
+        <module>../spring-cloud-security-oauth-github</module>
+        <module>../spring-cloud-security-oauth-cloud-uaa</module>
+        <module>../spring-cloud-security-oauth-cloud-gateway</module>
+        <module>../spring-cloud-security-oauth-cloud-resource</module>
+        <module>../spring-cloud-security-oauth-uaa-jwt-sso</module>
+        <module>../spring-cloud-security-oauth-zuul-jwt-sso</module>
+        <module>../spring-cloud-security-ouath-client1-jwt-sso</module>
+        <module>../spring-cloud-security-ouath-client2-jwt-sso</module>
+    </modules>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.2.11.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+        <spring.security.jtw.version>1.1.1.RELEASE</spring.security.jtw.version>
+        <spring.security.oauth2.version>2.3.4.RELEASE</spring.security.oauth2.version>
+        <commons-io.version>2.6</commons-io.version>
+        <apollo.version>1.7.0</apollo.version>
+        <mybatis-plus.version>3.4.0</mybatis-plus.version>
+        <lombok.version>1.18.2</lombok.version>
+        <swagger.version>2.6.1</swagger.version>
+        <json.version>20201115</json.version>
+        <okhttp3.version>4.2.0</okhttp3.version>
+        <jedis.version>3.3.0</jedis.version>
+    </properties>
+
+    <dependencies>
+        <!-- 注意是starter,自动配置 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+            <optional>true</optional>
+        </dependency>
+
+        <!--spring-security-oauth2 end-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${lombok.version}</version>
+            <optional>true</optional>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-pool2</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>${commons-io.version}</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.ctrip.framework.apollo/apollo-client -->
+        <dependency>
+            <groupId>com.ctrip.framework.apollo</groupId>
+            <artifactId>apollo-client</artifactId>
+            <version>${apollo.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+            <version>${swagger.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+            <version>${swagger.version}</version>
+        </dependency>
+    </dependencies>
+
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>Hoxton.SR8</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+</project>

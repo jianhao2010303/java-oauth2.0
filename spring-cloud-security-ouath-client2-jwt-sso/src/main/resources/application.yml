@@ -1,0 +1,30 @@
+spring:
+  application:
+    name: eureka-client2
+
+server:
+  port: 8082
+
+apollo:
+  meta: http://192.168.206.11:9000,http://192.168.206.66:9000,http://192.168.206.127:9000
+  bootstrap:
+    enabled: true
+
+oauth-server: http://localhost:53020/uaa
+
+security:
+  oauth2:
+    resource:
+      #      资源服务器三种验证令牌方法
+      #       一、在ResourceServerConfig中本地配置
+      #      二、从认证服务器获取用户信息 解析出token
+      #      user-info-uri: ${oauth-server}/oauth2_token/current
+      #      prefer-token-info: false
+      #       三、远程获取公钥 解析token
+      jwt:
+        key-uri: ${oauth-server}/oauth/token_key
+
+logging:
+  level:
+    org.springframework.security: DEBUG
+    org.springframework.web: DEBUG

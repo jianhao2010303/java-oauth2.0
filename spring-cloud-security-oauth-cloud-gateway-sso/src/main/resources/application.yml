@@ -1,0 +1,54 @@
+server:
+  port: 80
+
+# zuul
+zuul:
+  add-host-header: true
+  ignoredServices: '*'
+  retryable: true
+  sensitiveHeaders: '*'
+
+  routes:
+    uaa-service:
+      path: /uaa/**
+      stripPrefix: false
+
+    system-service:
+      path: /system/**
+      stripPrefix: false
+
+
+#认证服务器地址
+oauth-server: http://localhost:53020/uaa
+security:
+  oauth2:
+    #   和认证服务器中的client设置对应
+    client:
+      client-id: zuul
+      client-secret: secret
+      #	   获取令牌地址
+      access-token-uri: ${oauth-server}/oauth/token
+      #      认证地址
+      user-authorization-uri: ${oauth-server}/oauth/authorize
+    resource:
+        #      进行令牌校验
+        #      一、访问controller获取Principal
+        #      user-info-uri: ${oauth-server}/oauth2_token/current
+        #      prefer-token-info: false
+        #      二、访问授权服务器获取公钥 解析令牌
+      jwt:
+        key-uri: ${oauth-server}/oauth/token_key
+
+# eureka
+eureka:
+  security:
+    user:
+      name: admin
+      password: admin123456
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    serviceUrl:
+      defaultZone: http://${eureka.security.user.name}:${eureka.security.user.password}@192.168.206.11:8000/eureka,http://${eureka.security.user.name}:${eureka.security.user.password}@192.168.206.66:8000/eureka,http://${eureka.security.user.name}:${eureka.security.user.password}@192.168.206.127:8000/eureka
+
+

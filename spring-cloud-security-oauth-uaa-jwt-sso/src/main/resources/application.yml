@@ -1,0 +1,77 @@
+spring:
+  application:
+    name: uaa-service
+
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      minimum-idle: 5
+      maximum-pool-size: 15
+      auto-commit: true
+      idle-timeout: 30000
+      pool-name: HikariCP
+      max-lifetime: 1800000
+      connection-timeout: 30000
+      connection-test-query: SELECT 1
+
+  ### redis
+  redis:
+    timeout: 15000
+    cluster:
+      max-total: 120              # 最大连接数
+      max-attempts: 5
+      max-active: 16
+      max-redirects: 12           # RedisClusterConfiguration配置
+      max-wait: 2000              # 获得链接时的最大等待毫秒数，小于0：阻塞不确定时间，默认-1
+      max-idle: 8                 # 最大空闲实例的个数
+      min-idle: 3                 #最小空闲实例个数
+      test-on-borrow: true        # 在获得链接的时候检查有效性，默认false
+      block-when-exhausted: false # 连接耗尽时是否阻塞，false报异常，true阻塞超时,默认true
+
+  security:
+    basic:
+      enabled: false
+
+server:
+  servlet:
+    context-path: /uaa
+  port: 53020
+
+#mybaties-plus
+mybatis-plus:
+  mapper-locations: classpath:/mapper/*.xml
+  global-config:
+    # 数据库相关配置
+    db-config:
+      #主键类型  AUTO:"数据库ID自增", INPUT:"用户输入ID",ID_WORKER:"全局唯一ID (数字类型唯一ID)", UUID:"全局唯一ID UUID";
+      id-type: id_worker
+      #字段策略 IGNORED:"忽略判断",NOT_NULL:"非 NULL 判断"),NOT_EMPTY:"非空判断"
+      field-strategy: not_empty
+      #驼峰下划线转换
+      column-underline: true
+      #数据库大写下划线转换
+      #capital-mode: true
+      #逻辑删除配置
+      logic-delete-value: 0
+      logic-not-delete-value: 1
+      db-type: mysql
+    #刷新mapper 调试神器
+    refresh: true
+  # 原生配置
+  configuration:
+    map-underscore-to-camel-case: true
+    cache-enabled: true #配置的缓存的全局开关
+    lazyLoadingEnabled: false #延时加载的开关
+    multipleResultSetsEnabled: true #开启的话，延时加载一个属性时会加载该对象全部属性，否则按需加载属性
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+apollo:
+  meta: http://192.168.206.11:9000,http://192.168.206.66:9000,http://192.168.206.127:9000
+  bootstrap:
+    enabled: true
+
+logging:
+  level:
+    org.springframework.security: DEBUG
+    org.springframework.web: DEBUG

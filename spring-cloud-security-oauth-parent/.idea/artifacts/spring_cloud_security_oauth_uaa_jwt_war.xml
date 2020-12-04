@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="spring-cloud-security-oauth-uaa-jwt:war">
+    <output-path>$PROJECT_DIR$/../spring-cloud-security-oauth-uaa-jwt/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>spring-cloud-security-oauth-uaa-jwt</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="spring-cloud-security-oauth-uaa-jwt-1.0.war">
+      <element id="artifact" artifact-name="spring-cloud-security-oauth-uaa-jwt:war exploded" />
+    </root>
+  </artifact>
+</component>

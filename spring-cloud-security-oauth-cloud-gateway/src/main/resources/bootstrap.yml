@@ -1,0 +1,35 @@
+spring:
+  application:
+    name: zuul-gateway
+  ### redis
+  redis:
+    timeout: 15000
+    cluster:
+      max-total: 120              # 最大连接数
+      max-attempts: 5
+      max-active: 16
+      max-redirects: 12           # RedisClusterConfiguration配置
+      max-wait: 2000              # 获得链接时的最大等待毫秒数，小于0：阻塞不确定时间，默认-1
+      max-idle: 8                 # 最大空闲实例的个数
+      min-idle: 3                 #最小空闲实例个数
+      test-on-borrow: true        # 在获得链接的时候检查有效性，默认false
+      block-when-exhausted: false # 连接耗尽时是否阻塞，false报异常，true阻塞超时,默认true
+
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      minimum-idle: 5
+      maximum-pool-size: 15
+      auto-commit: true
+      idle-timeout: 30000
+      pool-name: HikariCP
+      max-lifetime: 1800000
+      connection-timeout: 30000
+      connection-test-query: SELECT 1
+
+apollo:
+  meta: http://192.168.206.11:9000,http://192.168.206.66:9000,http://192.168.206.127:9000
+  bootstrap:
+    enabled: true
+

@@ -1,0 +1,32 @@
+spring:
+  application:
+    name: spring-cloud-security-oauth-uua-resource-jtw
+
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      minimum-idle: 5
+      maximum-pool-size: 15
+      auto-commit: true
+      idle-timeout: 30000
+      pool-name: HikariCP
+      max-lifetime: 1800000
+      connection-timeout: 30000
+      connection-test-query: SELECT 1
+
+server:
+  port: 50010
+
+# eureka
+eureka:
+  security:
+    user:
+      name: admin
+      password: admin123456
+
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    serviceUrl:
+      defaultZone: http://${eureka.security.user.name}:${eureka.security.user.password}@192.168.206.11:8000/eureka,http://${eureka.security.user.name}:${eureka.security.user.password}@192.168.206.66:8000/eureka,http://${eureka.security.user.name}:${eureka.security.user.password}@192.168.206.127:8000/eureka

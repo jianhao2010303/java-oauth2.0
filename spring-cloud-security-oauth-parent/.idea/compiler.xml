@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-cloud-security-ouath-client2-jwt-sso" />
+        <module name="spring-cloud-security-ouath-client1-jwt-sso" />
+        <module name="spring-cloud-security-oauth-cloud-gateway" />
+        <module name="spring-cloud-security-oauth-manager-dao" />
+        <module name="spring-cloud-security-oauth-resource" />
+        <module name="spring-cloud-security-oauth-zuul-jwt-sso" />
+        <module name="spring-cloud-security-oauth-manager-service" />
+        <module name="spring-cloud-security-oauth-cloud-resource" />
+        <module name="spring-cloud-security-oauth-uaa-jwt" />
+        <module name="spring-cloud-security-oauth-cloud-uaa" />
+        <module name="spring-cloud-security-oauth-github" />
+        <module name="spring-cloud-security-oauth-uaa-jwt-sso" />
+        <module name="spring-cloud-security-oauth-resource-jwt" />
+        <module name="spring-cloud-security-oauth-common" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-cloud-security-oauth-cloud-gateway" target="1.8" />
+      <module name="spring-cloud-security-oauth-cloud-gateway-sso" target="1.8" />
+      <module name="spring-cloud-security-oauth-cloud-resource" target="1.8" />
+      <module name="spring-cloud-security-oauth-cloud-uaa" target="1.8" />
+      <module name="spring-cloud-security-oauth-cloud-uaa-sso" target="1.8" />
+      <module name="spring-cloud-security-oauth-common" target="1.8" />
+      <module name="spring-cloud-security-oauth-github" target="1.8" />
+      <module name="spring-cloud-security-oauth-login-jwt-sso" target="1.8" />
+      <module name="spring-cloud-security-oauth-manager" target="1.8" />
+      <module name="spring-cloud-security-oauth-manager-dao" target="1.8" />
+      <module name="spring-cloud-security-oauth-manager-service" target="1.8" />
+      <module name="spring-cloud-security-oauth-parent" target="1.8" />
+      <module name="spring-cloud-security-oauth-resource" target="1.8" />
+      <module name="spring-cloud-security-oauth-resource-jwt" target="1.8" />
+      <module name="spring-cloud-security-oauth-uaa" target="1.8" />
+      <module name="spring-cloud-security-oauth-uaa-jwt" target="1.8" />
+      <module name="spring-cloud-security-oauth-uaa-jwt-sso" target="1.8" />
+      <module name="spring-cloud-security-oauth-zuul-jwt-sso" target="1.8" />
+      <module name="spring-cloud-security-ouath-client1-jwt-sso" target="1.8" />
+      <module name="spring-cloud-security-ouath-client2-jwt-sso" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring-cloud-security-oauth-cloud-gateway" options="-parameters" />
+      <module name="spring-cloud-security-oauth-cloud-gateway-sso" options="-parameters" />
+      <module name="spring-cloud-security-oauth-cloud-resource" options="-parameters" />
+      <module name="spring-cloud-security-oauth-cloud-uaa" options="-parameters" />
+      <module name="spring-cloud-security-oauth-cloud-uaa-sso" options="-parameters" />
+      <module name="spring-cloud-security-oauth-common" options="-parameters" />
+      <module name="spring-cloud-security-oauth-github" options="-parameters" />
+      <module name="spring-cloud-security-oauth-login-jwt-sso" options="-parameters" />
+      <module name="spring-cloud-security-oauth-manager-dao" options="-parameters" />
+      <module name="spring-cloud-security-oauth-manager-service" options="-parameters" />
+      <module name="spring-cloud-security-oauth-resource" options="-parameters" />
+      <module name="spring-cloud-security-oauth-resource-jwt" options="-parameters" />
+      <module name="spring-cloud-security-oauth-uaa-jwt" options="-parameters" />
+      <module name="spring-cloud-security-oauth-uaa-jwt-sso" options="-parameters" />
+      <module name="spring-cloud-security-oauth-zuul-jwt-sso" options="-parameters" />
+      <module name="spring-cloud-security-ouath-client1-jwt-sso" options="-parameters" />
+      <module name="spring-cloud-security-ouath-client2-jwt-sso" options="-parameters" />
+    </option>
+  </component>
+</project>

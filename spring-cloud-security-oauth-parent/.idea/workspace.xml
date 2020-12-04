@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="91acd558-1cc3-4870-8486-2adcfb405256" name="Default Changelist" comment="-add">
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-security-oauth-cloud-gateway-sso/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-security-oauth-cloud-gateway-sso/src/main/java/spring/cloud/security/oauth/sso/gateway/SsoGatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-security-oauth-cloud-gateway-sso/src/main/java/spring/cloud/security/oauth/sso/gateway/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-security-oauth-cloud-gateway-sso/src/main/java/spring/cloud/security/oauth/sso/gateway/config/RedisTokenStoreService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-security-oauth-cloud-gateway-sso/src/main/java/spring/cloud/security/oauth/sso/gateway/config/SrpingSecurityBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-security-oauth-cloud-gateway-sso/src/main/java/spring/cloud/security/oauth/sso/gateway/config/ZuulSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-security-oauth-cloud-gateway-sso/src/main/java/spring/cloud/security/oauth/sso/gateway/config/prop/RedisClusterProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-security-oauth-cloud-gateway-sso/src/main/java/spring/cloud/security/oauth/sso/gateway/config/prop/RedisProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-security-oauth-cloud-gateway-sso/src/main/resources/META-INF/app.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-security-oauth-cloud-gateway-sso/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-security-oauth-cloud-gateway-sso/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-security-oauth-cloud-uaa-sso/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-security-oauth-cloud-uaa-sso/src/main/java/spring/cloud/security/oauth/cloud/uaa/sso/UaaCloudSsoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-security-oauth-cloud-uaa-sso/src/main/java/spring/cloud/security/oauth/cloud/uaa/sso/config/AuthorizationServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-security-oauth-cloud-uaa-sso/src/main/java/spring/cloud/security/oauth/cloud/uaa/sso/config/MybatisPlusConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-security-oauth-cloud-uaa-sso/src/main/java/spring/cloud/security/oauth/cloud/uaa/sso/config/SpringSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-security-oauth-cloud-uaa-sso/src/main/java/spring/cloud/security/oauth/cloud/uaa/sso/config/SrpingSecurityBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-security-oauth-cloud-uaa-sso/src/main/resources/META-INF/app.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-security-oauth-cloud-uaa-sso/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-security-oauth-login-jwt-sso/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-security-oauth-login-jwt-sso/src/main/resources/META-INF/app.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-security-oauth-login-jwt-sso/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-security-ouath-client2-jwt-sso/src/main/java/spring/cloud/security/oauth/client2/jwt/sso/config/ResourceServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-security-ouath-client2-jwt-sso/src/main/java/spring/cloud/security/oauth/client2/jwt/sso/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-security-oauth-uaa-jwt-sso/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-cloud-security-oauth-uaa-jwt-sso/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-security-oauth-zuul-jwt-sso/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-cloud-security-oauth-zuul-jwt-sso/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-security-ouath-client1-jwt-sso/src/main/java/spring/cloud/security/oauth/client1/jwt/sso/config/ResourceServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-cloud-security-ouath-client1-jwt-sso/src/main/java/spring/cloud/security/oauth/client1/jwt/sso/config/ResourceServerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-security-ouath-client1-jwt-sso/src/main/java/spring/cloud/security/oauth/client1/jwt/sso/controller/LoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-security-ouath-client1-jwt-sso/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-cloud-security-ouath-client1-jwt-sso/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-security-ouath-client2-jwt-sso/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-cloud-security-ouath-client2-jwt-sso/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-security-ouath-client2-jwt-sso/src/main/java/spring/cloud/security/ouath/client2/jwt/sso/JwtClient2SsoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-cloud-security-ouath-client2-jwt-sso/src/main/java/spring/cloud/security/oauth/client2/jwt/sso/JwtClient2SsoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-security-ouath-client2-jwt-sso/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-cloud-security-ouath-client2-jwt-sso/src/main/resources/application.yml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="241" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/Maven" />
+        <option name="userSettingsFile" value="D:\Maven\setting\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1kiResePE712mBDP0UTe1pC7fDQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="E:/workspace_code/Meet4/opt/1.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.28392157" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="spring.cloud.security.oauth.uaa.jwt.sso.config" />
+      <recent name="spring.cloud.security.ouath.client1.jwt.sso" />
+      <recent name="spring.cloud.security.oauth.zuul.jwt.sso.config" />
+      <recent name="spring.cloud.security.oauth.sso.gateway.config" />
+      <recent name="spring.cloud.security.oauth.cloud.uua.config" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace_spring_cloud\cn-com-xuct-study\java\spring-cloud-security\spring-cloud-security-ouath-client2-jwt-sso\src\main\java\spring\cloud\security\ouath\client2\jwt\sso" />
+      <recent name="E:\workspace_spring_cloud\cn-com-xuct-study\java\spring-cloud-security\spring-cloud-security-ouath-client2-jwt-sso\src\main\resources" />
+      <recent name="E:\workspace_spring_cloud\cn-com-xuct-study\java\spring-cloud-security\spring-cloud-security-oauth-login-jwt-sso\src\main\resources" />
+      <recent name="E:\workspace_spring_cloud\cn-com-xuct-study\java\spring-cloud-security\spring-cloud-security-oauth-uaa-jwt-sso\src\main\resources" />
+      <recent name="E:\workspace_spring_cloud\cn-com-xuct-study\java\spring-cloud-security\spring-cloud-security-ouath-client1-jwt-sso\src\main\resources" />
+    </key>
+  </component>
+  <component name="RestServicesNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="Found 6 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.JwtZuulSsoApplication">
+    <configuration name="JwtZuulSsoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="spring.cloud.security.oauth.zuul.jwt.sso.JwtZuulSsoApplication" />
+      <module name="spring-cloud-security-oauth-zuul-jwt-sso" />
+      <option name="VM_PARAMETERS" value="-Denv=dev" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="spring.cloud.security.oauth.zuul.jwt.sso.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JwtClient1SsoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-cloud-security-ouath-client1-jwt-sso" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="spring.cloud.security.oauth.client1.jwt.sso.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="spring.cloud.security.oauth.client1.jwt.sso.JwtClient1SsoApplication" />
+      <option name="VM_PARAMETERS" value="-Denv=dev" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JwtClient2SsoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-cloud-security-ouath-client2-jwt-sso" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="spring.cloud.security.oauth.client2.jwt.sso.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="spring.cloud.security.oauth.client2.jwt.sso.JwtClient2SsoApplication" />
+      <option name="VM_PARAMETERS" value="-Denv=dev" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JwtUaaSsoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-cloud-security-oauth-uaa-jwt-sso" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="spring.cloud.security.oauth.uaa.jwt.sso.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="spring.cloud.security.oauth.uaa.jwt.sso.JwtUaaSsoApplication" />
+      <option name="VM_PARAMETERS" value="-Denv=dev" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UaaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-security-oauth-uaa" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="spring.cloud.security.oauth.uaa.UaaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UuaJwtApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-security-oauth-uaa-jwt" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="spring.cloud.security.oauth.uaa.jwt.UuaJwtApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.JwtZuulSsoApplication" />
+      <item itemvalue="Spring Boot.UuaJwtApplication" />
+      <item itemvalue="Spring Boot.UaaApplication" />
+      <item itemvalue="Spring Boot.JwtUaaSsoApplication" />
+      <item itemvalue="Spring Boot.JwtClient1SsoApplication" />
+      <item itemvalue="Spring Boot.JwtClient2SsoApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.JwtZuulSsoApplication" />
+        <item itemvalue="Spring Boot.JwtClient2SsoApplication" />
+        <item itemvalue="Spring Boot.JwtClient1SsoApplication" />
+        <item itemvalue="Spring Boot.JwtUaaSsoApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="91acd558-1cc3-4870-8486-2adcfb405256" name="Default Changelist" comment="" />
+      <created>1606181523503</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606181523503</updated>
+      <workItem from="1606181526285" duration="41000" />
+      <workItem from="1606181580383" duration="7311000" />
+      <workItem from="1606281121569" duration="15462000" />
+      <workItem from="1606351000102" duration="13012000" />
+      <workItem from="1606698234586" duration="29609000" />
+      <workItem from="1606788563539" duration="113629000" />
+      <workItem from="1606969521884" duration="24423000" />
+    </task>
+    <task id="LOCAL-00001" summary="-add">
+      <created>1606181896116</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606181896116</updated>
+    </task>
+    <task id="LOCAL-00002" summary="-add">
+      <created>1606183439928</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606183439928</updated>
+    </task>
+    <task id="LOCAL-00003" summary="-add">
+      <created>1606355887825</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1606355887826</updated>
+    </task>
+    <task id="LOCAL-00004" summary="-add">
+      <created>1606384888636</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1606384888636</updated>
+    </task>
+    <task id="LOCAL-00005" summary="-add">
+      <created>1606901091083</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1606901091083</updated>
+    </task>
+    <task id="LOCAL-00006" summary="-add">
+      <created>1606912245961</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1606912245961</updated>
+    </task>
+    <task id="LOCAL-00007" summary="-add">
+      <created>1606955806649</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1606955806649</updated>
+    </task>
+    <task id="LOCAL-00008" summary="-add">
+      <created>1606981350439</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1606981350439</updated>
+    </task>
+    <task id="LOCAL-00009" summary="-add">
+      <created>1606986633745</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1606986633745</updated>
+    </task>
+    <task id="LOCAL-00010" summary="-add">
+      <created>1606990912411</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1606990912411</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="-add" />
+    <option name="LAST_COMMIT_MESSAGE" value="-add" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="req.getRequestURI()" language="JAVA" />
+        <watch expression="((HeaderWriterRequest)request).response" custom="org.springframework.security.web.header.HeaderWriterFilter.HeaderWriterRequest" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/spring_cloud_security_oauth_parent$JwtZuulSsoApplication.ic" NAME="JwtZuulSsoApplication Coverage Results" MODIFIED="1606790888236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>spring.cloud.security.oauth.zuul.jwt.sso.*</FILTER>
+    </SUITE>
+  </component>
+</project>

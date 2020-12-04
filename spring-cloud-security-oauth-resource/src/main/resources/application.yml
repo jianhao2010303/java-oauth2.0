@@ -1,0 +1,37 @@
+spring:
+  application:
+    name: spring-cloud-security-oauth-resource
+
+  freemarker:
+    charset: utf-8
+    content-type: text/html
+    enabled: true
+    request-context-attribute: rc
+    suffix: .html
+  http:
+    encoding:
+      charset: utf-8
+      enabled: true
+      force: true
+  main:
+    allow-bean-definition-overriding: true
+  mvc:
+    throw-exception-if-no-handler-found: true
+  resources:
+    add-mappings: false
+
+server:
+  port: 50010
+
+
+eureka:
+  security:
+    user:
+      name: admin
+      password: admin123456
+
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    serviceUrl:
+      defaultZone: http://${eureka.security.user.name}:${eureka.security.user.password}@192.168.206.11:8000/eureka,http://${eureka.security.user.name}:${eureka.security.user.password}@192.168.206.66:8000/eureka,http://${eureka.security.user.name}:${eureka.security.user.password}@192.168.206.127:8000/eureka

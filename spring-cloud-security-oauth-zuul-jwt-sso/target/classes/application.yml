@@ -1,0 +1,57 @@
+spring:
+  application:
+    name: zuul-gateway
+
+  basic:
+    enabled: false
+server:
+  port: 80
+
+# zuul
+zuul:
+  add-proxy-headers: true
+  routes:
+    resource1:
+      path: /client1/**
+      sensitiveHeaders:
+      service-id: eureka-client1
+    resource2:
+      path: /client2/**
+      sensitiveHeaders:
+      service-id: eureka-client2
+
+apollo:
+  meta: http://192.168.206.11:9000,http://192.168.206.66:9000,http://192.168.206.127:9000
+  bootstrap:
+    enabled: true
+
+oauth-server: http://localhost:53020/uaa
+
+security:
+  oauth2:
+    client:
+      access-token-uri: ${oauth-server}/oauth/token
+      user-authorization-uri: ${oauth-server}/oauth/authorize
+      client-id: app
+      client-secret: 123
+
+    resource:
+      #      进行令牌校验
+      #      一、访问controller获取Principal
+      #      user-info-uri: ${oauth-server}/oauth2_token/current
+      #      prefer-token-info: false
+      #      二、访问授权服务器获取公钥 解析令牌
+      jwt:
+        key-uri: ${oauth-server}/oauth/token_key
+#        key-value: |
+#          -----BEGIN PUBLIC KEY-----
+#          MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCmZVSRs4Wi9swv70awx+ISIUtJ
+#          kMIVBLvpb+/M6Sv1jJWcGYjw2XmAApHKatvW3G6WWcEnhC169XZ/6iDBMBD6OGZa
+#          8/P2reCXPbfsEwYhE0LtMkvvJHkWnFqjjGCCo6p/k/WiEuBC4VIrtSzu4TBRAKlx
+#          6IroVlrLGJKsr64jzQIDAQAB
+#          -----END PUBLIC KEY-----
+
+logging:
+  level:
+    org.springframework.security: DEBUG
+    org.springframework.web: DEBUG

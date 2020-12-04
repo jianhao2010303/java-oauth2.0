@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ecbfd855-a800-4e04-a68d-4a40f639b243" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/spring-cloud-security-oauth-cloud-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-security-oauth-cloud-gateway/src/main/java/spring/cloud/security/oauth/gateway/GateWayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-security-oauth-cloud-gateway/src/main/java/spring/cloud/security/oauth/gateway/config/GatewayConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-security-oauth-cloud-gateway/src/main/java/spring/cloud/security/oauth/gateway/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-security-oauth-cloud-gateway/src/main/java/spring/cloud/security/oauth/gateway/config/RedisTokenStoreService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-security-oauth-cloud-gateway/src/main/java/spring/cloud/security/oauth/gateway/config/ResourceServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-security-oauth-cloud-gateway/src/main/java/spring/cloud/security/oauth/gateway/config/SrpingSecurityBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-security-oauth-cloud-gateway/src/main/java/spring/cloud/security/oauth/gateway/config/TokenConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-security-oauth-cloud-gateway/src/main/java/spring/cloud/security/oauth/gateway/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-security-oauth-cloud-gateway/src/main/java/spring/cloud/security/oauth/gateway/config/prop/RedisClusterProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-security-oauth-cloud-gateway/src/main/java/spring/cloud/security/oauth/gateway/config/prop/RedisProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-security-oauth-cloud-gateway/src/main/java/spring/cloud/security/oauth/gateway/filter/AuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-security-oauth-cloud-gateway/src/main/resources/META-INF/app.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-security-oauth-cloud-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-security-oauth-cloud-gateway/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-security-oauth-cloud-gateway/src/main/resources/publicKey.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-security-oauth-cloud-uaa/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-security-oauth-cloud-uaa/src/main/java/spring/cloud/security/oauth/cloud/uua/UaaCloudApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-security-oauth-cloud-uaa/src/main/java/spring/cloud/security/oauth/cloud/uua/config/AuthorizationServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-security-oauth-cloud-uaa/src/main/java/spring/cloud/security/oauth/cloud/uua/config/MybatisPlusConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-security-oauth-cloud-uaa/src/main/java/spring/cloud/security/oauth/cloud/uua/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-security-oauth-cloud-uaa/src/main/java/spring/cloud/security/oauth/cloud/uua/config/ReloadMessageConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-security-oauth-cloud-uaa/src/main/java/spring/cloud/security/oauth/cloud/uua/config/SpringSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-security-oauth-cloud-uaa/src/main/java/spring/cloud/security/oauth/cloud/uua/config/SrpingSecurityBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-security-oauth-cloud-uaa/src/main/java/spring/cloud/security/oauth/cloud/uua/config/TokenConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-security-oauth-cloud-uaa/src/main/java/spring/cloud/security/oauth/cloud/uua/config/authentication/CustomAuthenticationFailureHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-security-oauth-cloud-uaa/src/main/java/spring/cloud/security/oauth/cloud/uua/config/authentication/CustomAuthenticationSuccessHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-security-oauth-cloud-uaa/src/main/java/spring/cloud/security/oauth/cloud/uua/config/prop/RedisClusterProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-security-oauth-cloud-uaa/src/main/java/spring/cloud/security/oauth/cloud/uua/config/prop/RedisProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-security-oauth-cloud-uaa/src/main/resources/META-INF/app.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-security-oauth-cloud-uaa/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-security-oauth-cloud-uaa/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-security-oauth-cloud-uaa/src/main/resources/oauth2.jks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-security-oauth-common/src/main/java/spring/cloud/security/oath/common/bean/vo/ResultCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-security-oauth-common/src/main/java/spring/cloud/security/oath/common/bean/vo/ResultJson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-security-oauth-common/src/main/java/spring/cloud/security/oath/common/utils/JsonUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-security-oauth-github/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-security-oauth-common/src/main/java/spring/cloud/security/oath/common/bean/entity/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-security-oauth-common/src/main/java/spring/cloud/security/oath/common/bean/entity/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-security-oauth-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-security-oauth-parent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-security-oauth-resource-jwt/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-security-oauth-resource-jwt/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-security-oauth-resource-jwt/src/main/java/spring/cloud/security/oauth/resource/jwt/JwtResourceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-security-oauth-resource-jwt/src/main/java/spring/cloud/security/oauth/resource/jwt/ResourceJwtApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-security-oauth-resource-jwt/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-security-oauth-resource-jwt/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-security-oauth-uaa-jwt/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-security-oauth-uaa-jwt/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-security-oauth-uaa-jwt/src/main/java/spring/cloud/security/oauth/uaa/jwt/config/AuthorizationConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-security-oauth-uaa-jwt/src/main/java/spring/cloud/security/oauth/uaa/jwt/config/AuthorizationConfiguration.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1knz0i8Cp4eq6AFzCGiJ5hHKx2I" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-cloud-security-oauth-parent" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ecbfd855-a800-4e04-a68d-4a40f639b243" name="Default Changelist" comment="" />
+      <created>1606350921631</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606350921631</updated>
+      <workItem from="1606350922750" duration="76000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
